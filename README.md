@@ -22,7 +22,7 @@ This submission includes a redesigned version of the Jobringer "Jobs" page, buil
 Technologies Used:
 ------------------
 - HTML5
-- Tailwind CSS (via CDN)
+- CSS
 - Responsive CSS Grid & Flexbox
 - Dark mode toggle (light/dark theme switcher)
 
@@ -35,6 +35,7 @@ How to Use:
 File Structure:
 ---------------
 - jobs.html      → The main HTML file containing the Jobs Page redesign.
+- style.css      ->The main Css file containing the style of the page.
 - README.txt     → This file.
 
 Optional Enhancements (Not Included):
