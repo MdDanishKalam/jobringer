@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Listings - Jobringer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Jobringer</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Jobs</a>
+        <a href="#">Contact</a>
+        <button onclick="toggleDarkMode()">Toggle Mode</button>
+      </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <h2>Explore Job Listings</h2>
+      <p>Find opportunities that match your skills and passion.</p>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters">
+      <input
+        type="text"
+        placeholder="Search by title, company, or keyword..."
+      />
+      <select>
+        <option>All Locations</option>
+        <option>Remote</option>
+        <option>New York</option>
+        <option>Bangalore</option>
+        <option>Delhi</option>
+      </select>
+    </section>
+
+    <!-- Job Listings -->
+    <section class="jobs">
+      <div class="card">
+        <h3>Frontend Developer</h3>
+        <p>Volumetree · Remote</p>
+        <p>Build responsive UIs with React and Tailwind.</p>
+        <button>Apply Now</button>
+      </div>
+
+      <div class="card">
+        <h3>UI/UX Designer Intern</h3>
+        <p>Jobringer · Delhi</p>
+        <p>Design intuitive layouts with Figma & HTML/CSS.</p>
+        <button>Apply Now</button>
+      </div>
+
+      <div class="card">
+        <h3>Full Stack Intern</h3>
+        <p>StartupX · Remote</p>
+        <p>Work with MERN stack and deploy apps to cloud.</p>
+        <button>Apply Now</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      &copy; 2025 Jobringer. All rights reserved.
+    </footer>
+
+    <script>
+      function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>
